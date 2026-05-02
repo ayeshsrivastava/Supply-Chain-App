@@ -1,0 +1,85 @@
+{
+  "shipments": [
+    {
+      "source": "Hyderabad",
+      "destination": "Odissa",
+      "carrier": "DTDC",
+      "distance": 500,
+      "status": "transit",
+      "weather": "storm",
+      "dispatchDate": "2026-05-02",
+      "expectedDate": "2026-05-05",
+      "deliveredDate": "",
+      "id": "OGpgKpC_At0"
+    },
+    {
+      "source": "Delhi",
+      "destination": "Noida",
+      "carrier": "Delhivery",
+      "distance": 50,
+      "status": "dispatch",
+      "weather": "heavy_rain",
+      "dispatchDate": "2026-05-02",
+      "expectedDate": "2026-05-05",
+      "deliveredDate": "",
+      "id": "ooxDtRuzomo"
+    },
+    {
+      "source": "kashmir",
+      "destination": "kanyakumari",
+      "carrier": "Delhivery",
+      "distance": 2000,
+      "dispatchDate": "2026-04-26",
+      "expectedDate": "2026-05-02",
+      "status": "delivered",
+      "weather": "clear",
+      "id": "cK96pyvSZvg"
+    },
+    {
+      "source": "mumbai",
+      "destination": "chennai",
+      "carrier": "Delhivery",
+      "distance": 500,
+      "dispatchDate": "",
+      "expectedDate": "",
+      "status": "transit",
+      "weather": {
+        "temp": 30.9,
+        "rain": 0,
+        "wind": 17.7
+      },
+      "id": "i1IFU5HPoGA"
+    },
+    {
+      "source": "Delhi",
+      "destination": "Chennai",
+      "carrier": "Delhivery",
+      "distance": 100,
+      "dispatchDate": "",
+      "expectedDate": "",
+      "status": "transit",
+      "weather": {
+        "temperature": 30.8,
+        "wind": 18,
+        "rain": 0
+      },
+      "id": "v2bbea9LJtg"
+    },
+    {
+      "source": "Delhi",
+      "destination": "Chennai",
+      "carrier": "Delhivery",
+      "distance": 4,
+      "dispatchDate": "2026-05-02",
+      "expectedDate": "2026-05-20",
+      "status": "dispatch",
+      "weather": {
+        "temperature": 30.8,
+        "wind": 18,
+        "rain": 0
+      },
+      "id": "vxSZtqmhI3Q"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
